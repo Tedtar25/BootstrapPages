@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cesar Carrillo, Emiliano Ramirez, David Fonseca, Alvaro Mora">
+    <meta name="date" content="21-10-2004">
+    <title>Desomet</title>
+
+    <!--ARCHIVOS DE ESTILO PERSONAL & BOOTSTRAP-->
+    <link rel="stylesheet" href="src/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.page.css">
+    <!--FINAL DE ENLACE DE ARCHIVOS DE ESTILO PERSONAL & BOOTSTRAP-->
+
+</head>
+
+<body>
+    
+    <!--INICIO DEL HEADER-->
+    <header>
+        <!--INICIO BARRA DE NAVEGACION-->
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <!-- Logo de la empresa a la izquierda -->
+                <a class="navbar-brand" href="home.page.html">
+                    <img src="src/images/logo-desomet-removebg.png" alt="Logo Empresa" width="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <!-- Menú a la derecha -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="home.page.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="services.page.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="services.page.html">Nuestros Servicios</a></li>
+                                <li><a class="dropdown-item" href="maquinados.page.html">Maquinados</a></li>
+                                <li><a class="dropdown-item" href="paileria.page.html">Pailería Industrial</a></li>
+                                <li><a class="dropdown-item" href="rack.page.html">Sistemas de Almacenamiento</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Sobre Nosotros</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Misión</a></li>
+                                <li><a class="dropdown-item" href="#">Visión</a></li>
+                                <li><a class="dropdown-item" href="#">Valores</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--FINAL DE BARRA DE NAVEGACION-->
+    </header>
+    <!--FINAL DEL HEADER-->
+
+    <!--INICIO DEL MAIN-->
+    <main>
+        <!-- Sección introductoria -->
+        <div>
+            <h1>Nuestros Servicios</h1>
+            <p>En Desomet, ofrecemos soluciones integrales para las industrias más exigentes, cubriendo tres áreas fundamentales:</p>
+            <ul>
+                <li><strong>Maquinados Industriales:</strong> Nos especializamos en la fabricación de piezas personalizadas de alta precisión, utilizando maquinaria avanzada para procesar una amplia variedad de materiales. Desde componentes automotrices hasta piezas para maquinaria pesada, garantizamos calidad y tiempos de entrega óptimos.</li>
+                <li><strong>Pailería Industrial:</strong> También conocida como herrería industrial, ofrecemos la construcción de estructuras metálicas para diferentes aplicaciones. Fabricamos desde bases y soportes hasta estructuras complejas, asegurando durabilidad y resistencia, esenciales para la construcción, minería y energía.</li>
+                <li><strong>Sistemas de Almacenamiento (Racks):</strong> Diseñamos e instalamos sistemas de almacenamiento eficientes, adaptados a las necesidades específicas de cada cliente. Nuestros racks y estanterías industriales optimizan el uso del espacio en almacenes y centros de distribución, maximizando la organización y facilitando el acceso a los productos.</li>
+            </ul>
+            <p>Gracias a nuestro equipo altamente capacitado y nuestro enfoque en la mejora continua, brindamos soluciones que cumplen con los más altos estándares de calidad y seguridad en cada proyecto.</p>
+        </div>
+
+        <!-- Sección de tarjetas (cards) -->
+        <div class="row">
+            <!-- Primer Card -->
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="src/images/inicio/font-maquinado.jpg" class="card-img-top" alt="Maquinados" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Maquinados</h5>
+                        <p class="card-text">Ofrecemos soluciones avanzadas en maquinados industriales, con precisión y calidad garantizada.</p>
+                        <a href="maquinados.page.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segundo Card -->
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="src/images/services/paileriaIndustrialCamioneta.jpg" class="card-img-top" alt="Pailería" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pailería</h5>
+                        <p class="card-text">Fabricamos estructuras metálicas personalizadas para proyectos industriales.</p>
+                        <a href="paileria.page.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tercer Card -->
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="src/images/inicio/producto-rackNaranja.jpg" class="card-img-top" alt="Almacenamiento" style="height: 300px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Almacenamiento</h5>
+                        <p class="card-text">Sistemas eficientes de almacenamiento para optimizar espacios industriales.</p>
+                        <a href="rack.page.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--FINAL DEL MAIN-->
+
+    <!--INICIO DEL FOOTER-->
+    <footer class="footer-custom">
+        <p>© 2024 Desomet. Todos los derechos reservados. | Comprometidos con la excelencia en soluciones industriales.</p>
+    </footer>
+    <!--FINAL DEL FOOTER-->
+
+    <!--ARCHIVOS DE JAVASCRIPT PERSONAL & BOOTSTRAP-->
+    <script src="src/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <!--FINAL DE ENLACE DE JAVASCRIPT PERSONAL & BOOTSTRAP-->
+</body>
+
+</html>

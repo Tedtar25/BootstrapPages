@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cesar Carrillo, Emiliano Ramirez, David Fonseca, Alvaro Mora">
+    <meta name="date" content="21-10-2004">
+    <title>Desomet - Sistemas de Almacenamiento</title>
+    <!--ARCHIVOS DE ESTILO PERSONAL & BOOTSTRAP-->
+    <link rel="stylesheet" href="styles/style.page.css">
+    <link rel="stylesheet" href="src/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <!--FINAL DE ENLACE DE ARCHIVOS DE ESTILO PERSONAL & BOOTSTRAP-->
+
+</head>
+
+<body>
+    
+    <!--INICIO DEL HEADER-->
+    <header>
+        <!--INICIO BARRA DE NAVEGACION-->
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <!-- Logo de la empresa a la izquierda -->
+                <a class="navbar-brand" href="home.page.html">
+                    <img src="src/images/logo-desomet-removebg.png" alt="Logo Empresa" width="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <!-- Menú a la derecha -->
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Menú Inicio -->
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="home.page.html">Inicio</a>
+                        </li>
+                        <!-- Menú Servicios con Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="services.page.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="services.page.html">Nuestros Servicios</a></li>
+                                <li><a class="dropdown-item" href="maquinados.page.html">Maquinados</a></li>
+                                <li><a class="dropdown-item" href="paileria.page.html">Pailería Industrial</a></li>
+                                <li><a class="dropdown-item" href="rack.page.html">Sistemas de Almacenamiento</a></li>
+                            </ul>
+                        </li>
+                        <!-- Menú Sobre Nosotros con Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Sobre Nosotros
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Misión</a></li>
+                                <li><a class="dropdown-item" href="#">Visión</a></li>
+                                <li><a class="dropdown-item" href="#">Valores</a></li>
+                            </ul>
+                        </li>
+                        <!-- Menú Contacto -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--FINAL DE BARRA DE NAVEGACION-->
+    </header>
+    <!--FINAL DEL HEADER-->
+    
+    <!--INICIO DEL MAIN-->
+    <main>
+        <div>
+            <h1>Sistemas de Almacenamiento</h1>
+            <p>Los sistemas de almacenamiento, o racks, son estructuras que se usan para organizar y guardar productos
+                en almacenes. Ayudan a aprovechar mejor el espacio, permiten un acceso rápido a los productos y
+                facilitan el control de inventarios. Además, son adaptables a distintos tipos de carga y hacen más
+                eficientes las operaciones de carga y descarga.</p>
+        </div>
+
+        <!-- Inicio del Acordeón -->
+        <div class="accordion" id="accordionRacks">
+            <div class="accordion-item">
+                <!--PRIMER ACCORDION-->
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseRackOne" aria-expanded="true" aria-controls="collapseRackOne">
+                        <strong>Sistema Selectivo</strong>
+                    </button>
+                </h2>
+                <div id="collapseRackOne" class="accordion-collapse collapse show" data-bs-parent="#accordionRacks">
+                    <div class="accordion-body">
+                        Diseñado para almacenar una amplia gama de productos en tarimas o entrepisos, permitiendo un
+                        fácil acceso y control de inventarios. Es adaptable a diferentes tamaños y pesos de productos,
+                        ideal tanto para el manejo manual como para pallets pesados en múltiples niveles.
+                    </div>
+                </div>
+            </div>
+            <!--SEGUNDO ACORDION-->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseRackTwo" aria-expanded="false" aria-controls="collapseRackTwo">
+                        <strong>Sistema Double Deep</strong>
+                    </button>
+                </h2>
+                <div id="collapseRackTwo" class="accordion-collapse collapse" data-bs-parent="#accordionRacks">
+                    <div class="accordion-body">
+                        Es un sistema de pallets de doble profundidad que maximiza el espacio al reducir la cantidad de
+                        pasillos. Permite almacenar dos cargas en profundidad, aprovechando al máximo el espacio
+                        disponible y duplicando el volumen de almacenamiento.
+                    </div>
+                </div>
+            </div>
+            <!--TERCER ACCORDION-->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseRackThree" aria-expanded="false" aria-controls="collapseRackThree">
+                        <strong>Sistema Cantilever</strong>
+                    </button>
+                </h2>
+                <div id="collapseRackThree" class="accordion-collapse collapse" data-bs-parent="#accordionRacks">
+                    <div class="accordion-body">
+                        Diseñado para almacenar cargas largas y voluminosas de tamaños variados, cargadas lateralmente.
+                        Puede ser simple o doble según su ubicación en el área de almacenamiento, y se utiliza para
+                        maderas, tubos, perfiles PVC, fontanería y acero, entre otros materiales.
+                    </div>
+                </div>
+            </div>
+            <!--CUARTO ACCORDION-->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseRackFour" aria-expanded="false" aria-controls="collapseRackFour">
+                        <strong>Sistema Carton Flow</strong>
+                    </button>
+                </h2>
+                <div id="collapseRackFour" class="accordion-collapse collapse" data-bs-parent="#accordionRacks">
+                    <div class="accordion-body">
+                        Es un sistema de rack con rodillos que permite almacenar varias cajas en múltiples dimensiones.
+                        El acceso y la rotación de los productos se gestionan desde la parte trasera, utilizando el
+                        principio First In First Out.
+                    </div>
+                </div>
+            </div>
+            <!--QUINTO ACCORDION-->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseRackFive" aria-expanded="false" aria-controls="collapseRackFive">
+                        <strong>Sistema Picking</strong>
+                    </button>
+                </h2>
+                <div id="collapseRackFive" class="accordion-collapse collapse" data-bs-parent="#accordionRacks">
+                    <div class="accordion-body">
+                        Este sistema cubre todas las características de almacenaje para cargas manuales. Similar al
+                        sistema selectivo, pero con acceso manual. Es completamente desmontable y adaptable en altura.
+                    </div>
+                </div>
+            </div>
+            <!--SECTO ACCORDION-->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseRackSix" aria-expanded="false" aria-controls="collapseRackSix">
+                        <strong>Sistema Pushback</strong>
+                    </button>
+                </h2>
+                <div id="collapseRackSix" class="accordion-collapse collapse" data-bs-parent="#accordionRacks">
+                    <div class="accordion-body">
+                        Es un sistema de carros por gravedad para 2 a 6 tarimas, que facilita la carga y descarga
+                        selectiva con un montacargas desde el pasillo de tránsito.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- FINAL DEL ACORDEÓN -->
+
+        <!-- INICIO DEL CARRUSEL -->
+        <div id="carouselExampleCaptions" class="carousel slide mt-5">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="src/images/services/rackInstalacion.jpg" class="d-block w-100" alt="Primera imagen">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Surgimiento del Proyecto</h5>
+                        <p>Somos expertos en diseño, implementación y mantenimiento de los diferentes sistemas de
+                            alamacenamiento</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="src/images/services/rackSelectivo.jpg" class="d-block w-100" alt="Segunda imagen">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rack Selectivo</h5>
+                        <p>Adaptable a diferentes tamaños y pesos de productos, ideal tanto para el manejo manual como
+                            para pallets pesados en múltiples niveles.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="src/images/services/rackRollOverLogo.jpg" class="d-block w-100" alt="Tercera imagen">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rack Carton Flow</h5>
+                        <p>El acceso y la rotación de los productos se gestionan desde la parte trasera.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+        <!-- FIN DEL CARRUSEL -->
+
+    </main>
+    <!--FINAL DEL MAIN-->
+    
+    <!--INICIO DEL FOOTER-->
+    <footer class="footer-custom text-center py-4">
+        <p>© 2024 Desomet. Todos los derechos reservados. | Comprometidos con la excelencia en soluciones industriales.
+        </p>
+    </footer>
+    <!--FINAL DEL FOOTER-->
+    
+    <!--ARCHIVOS DE JAVASCRIPT PERSONAL & BOOTSTRAP-->
+    <script src="src/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <!--FINAL DE ENLACE DE JAVASCRIPT PERSONAL & BOOTSTRAP-->
+</body>
+
+</html>

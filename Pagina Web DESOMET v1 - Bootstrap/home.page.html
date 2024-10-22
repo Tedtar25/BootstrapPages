@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cesar Carrillo, Emiliano Ramirez, David Fonseca, Alvaro Mora">
+    <meta name="date" content="21-10-2004">
+    <title>Desomet</title>
+
+    <!--ARCHIVOS DE ESTILO PERSONAL & BOOTSTRAP-->
+    <link rel="stylesheet" href="styles/style.page.css">
+    <link rel="stylesheet" href="src/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <!--FINAL DE ENLACE DE ARCHIVOS DE ESTILO PERSONAL & BOOTSTRAP-->
+
+</head>
+
+<body>
+    <!--INICIO DEL HEADER-->
+    <header>
+        <!--INICIO BARRA DE NAVEGACION-->
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <!-- Logo de la empresa a la izquierda -->
+                <a class="navbar-brand" href="home.page.html">
+                    <img src="src/images/logo-desomet-removebg.png" alt="Logo Empresa" width="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <!-- Menú a la derecha -->
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Menú Inicio -->
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="home.page.html">Inicio</a>
+                        </li>
+                        <!-- Menú Servicios con Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="services.page.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="services.page.html">Nuestros Servicios</a></li>
+                                <li><a class="dropdown-item" href="maquinados.page.html">Maquinados</a></li>
+                                <li><a class="dropdown-item" href="paileria.page.html">Pailería Industrial</a></li>
+                                <li><a class="dropdown-item" href="rack.page.html">Sistemas de Almacenamiento</a></li>
+                            </ul>
+                        </li>
+                        <!-- Menú Sobre Nosotros con Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Sobre Nosotros
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Misión</a></li>
+                                <li><a class="dropdown-item" href="#">Visión</a></li>
+                                <li><a class="dropdown-item" href="#">Valores</a></li>
+                            </ul>
+                        </li>
+                        <!-- Menú Contacto -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--FINAL DE BARRA DE NAVEGACION-->
+    </header>
+    <!--FINAL DEL HEADER-->
+
+    <!--INICIO DEL MAIN-->
+    <main>
+        <!--PRIMER SECCION - INICIO PRIMER DIV SOLO TEXTO INTRODUCTORIO-->
+        <div>
+            <h1>Diseñando Soluciones Eficaces</h1>
+            <p>En nuestra empresa nos especializamos en el desarrollo e integración de proyectos industriales,
+                enfocándonos en soluciones metálicas de alta calidad.</p>
+            <p>Ofrecemos una amplia gama de servicios diseñados para satisfacer las necesidades específicas de la
+                industria:</p>
+            <ul>
+                <li><strong>Maquinados Industriales:</strong> Precisión y eficiencia en la fabricación de componentes
+                    clave para maquinaria industrial.</li>
+                <li><strong>Pailería Industrial:</strong> Fabricación de estructuras metálicas robustas y funcionales,
+                    adaptadas a cualquier entorno industrial.</li>
+                <li><strong>Racks para Almacenamiento:</strong> Diseño y producción de sistemas de almacenamiento que
+                    optimizan el espacio y facilitan la logística.</li>
+                <li><strong>Diseño Industrial:</strong> Utilización de herramientas para el diseño y la ingeniería de
+                    productos y soluciones a medida.</li>
+                <li><strong>Mantenimiento Industrial:</strong> Servicios de mantenimiento preventivo y correctivo para
+                    garantizar la operatividad continua de equipos y estructuras.</li>
+            </ul>
+            <p>Nuestro compromiso radica en ofrecer productos y servicios que cumplen con los más altos estándares de
+                calidad y durabilidad, asegurando la máxima satisfacción de nuestros clientes en cada proyecto.</p>
+        </div>
+        <!--PRIMER SECCION - FINAL PRIMER DIV SOLO TEXTO INTRODUCTORIO-->
+
+        <!--INICIO DEL PRIMER EFECTO PARALLAX-->
+        <div class="parallax" style="background-image: url('src/images/inicio/background-instalacionRack.jpg');"></div>
+        <!--FINAL DEL PRIMER EFECTO PARALLAX-->
+
+        <!-- SEGUNDA SECCION - CARDS PARA TRANSFERIR A LA PAGINA DE SERVICIOS -->
+        <div class="container my-5">
+            <div class="row">
+
+                <!-- Primera Card -->
+                <div class="col-md-6">
+                    <div class="card" style="width: 100%;">
+                        <img src="src/images/services/maquinadoIndustrialRedondo.jpg" class="card-img-top"
+                            alt="Maquinados" style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Maquinados Industriales</h5>
+                            <p class="card-text">Precisión y eficiencia en la fabricación de componentes clave para
+                                maquinaria industrial.</p>
+                            <a href="services.page.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Segunda Card -->
+                <div class="col-md-6">
+                    <div class="card" style="width: 100%;">
+                        <img src="src/images/services/rielFIFO.jpg" class="card-img-top" alt="Pailería Industrial"
+                            style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Pailería Industrial</h5>
+                            <p class="card-text">Fabricación de estructuras metálicas robustas y funcionales, adaptadas
+                                a cualquier entorno industrial.</p>
+                            <a href="services.page.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SEGUNDA SECCION - FINAL CARDS PARA TRANSFERIR A LA PAGINA DE SERVICIOS -->
+
+        <!--INICIO DEL SEGUNDO EFECTO PARALLAX-->
+        <div class="parallax" style="background-image: url('src/images/inicio/background-carroEmpresa.jpg');"></div>
+        <!--FINAL DEL SEGUNDO EFECTO PARALLAX-->
+
+        <!--SECCION POR PONER-->
+        <div class="container my-5">
+            <h1>Compromiso con la Calidad y la Innovación</h1>
+            <p>En Desomet, nuestra prioridad es brindar soluciones eficientes y de alta calidad para cada proyecto
+                industrial que emprendemos. Nos especializamos en adaptarnos a las necesidades específicas de cada
+                cliente, proporcionando un servicio personalizado que asegura la máxima satisfacción. A través de la
+                innovación continua y el uso de tecnología de punta, garantizamos productos duraderos y soluciones que
+                cumplen con los más altos estándares del sector.</p>
+        </div>
+        <!--SECCION POR PONER-->
+
+    </main>
+    <!--FINAL DEL MAIN-->
+
+    <!--INICIO DEL FOOTER-->
+    <footer class="footer-custom">
+        <p>© 2024 Desomet. Todos los derechos reservados. | Comprometidos con la excelencia en soluciones industriales.
+        </p>
+    </footer>
+    <!--FINAL DEL FOOTER-->
+
+    <!--ARCHIVOS DE JAVASCRIPT PERSONAL & BOOTSTRAP-->
+    <script src="src/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <!--FINAL DE ENLACE DE JAVASCRIPT PERSONAL & BOOTSTRAP-->
+</body>
+
+</html>

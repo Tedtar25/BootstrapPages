@@ -1,0 +1,37 @@
+/*ESTILOS UTILIZADOS EN HOME PAGE*/
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+/*ESTILOS UTILIZADOS EN RACKS PAGE, MAQUINADOS Y PAILERIA*/
+.carousel-item img {
+    height: 500px;
+    object-fit: cover; 
+    width: 100%;
+}
+
+/*ESTILOS PARA LA BARRA DE NAVEGACION */
+.navbar-custom {
+    background-color: #343a40; /* Gris oscuro */
+    border-bottom: 2px solid #2c2c2c; /* Línea de separación */
+}
+
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #d3d3d3; /* Gris claro al pasar el ratón */
+}
+
+/* ESTILOS PARA EL FOOTER*/
+.footer-custom {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto en blanco */
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+}
